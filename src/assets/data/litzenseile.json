@@ -1,0 +1,661 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "rope": "006",
+      "rollers": "120",
+      "data": [
+        { "product": "6x7 Standard", "d": "0.65", "kg/m": "0.13", "mbk": "25.1" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "0.48", "kg/m": "0.13", "mbk": "25.4" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x36 Warrington Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" }
+      ]
+    },
+    {
+      "id": 2,
+      "rope": "008",
+      "rollers": "160",
+      "data": [
+        { "product": "6x7 Standard", "d": "0.85", "kg/m": "0.22", "mbk": "43.5" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "0.64", "kg/m": "0.23", "mbk": "45.1" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x36 Warrington Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" }
+      ]
+    },
+    {
+      "id": 3,
+      "rope": "010",
+      "rollers": "200",
+      "data": [
+        { "product": "6x7 Standard", "d": "1.07", "kg/m": "0.34", "mbk": "68.1" },
+        { "product": "6x7 Standard", "d": "1.15", "kg/m": "0.39", "mbk": "78.9" },
+        { "product": "6x19 Seale", "d": "0.80", "kg/m": "0.35", "mbk": "69.7" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "0.65", "kg/m": "0.37", "mbk": "72.0" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x36 Warrington Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" }
+      ]
+    },
+    {
+      "id": 4,
+      "rope": "012",
+      "rollers": "240",
+      "data": [
+        { "product": "6x7 Standard", "d": "1.28", "kg/m": "0.48", "mbk": "96.9" },
+        { "product": "6x7 Standard", "d": "1.37", "kg/m": "0.55", "mbk": "112" },
+        { "product": "6x19 Seale", "d": "0.96", "kg/m": "0.51", "mbk": "101" },
+        { "product": "6x19 Seale kompaktiert", "d": "1.01", "kg/m": "0.55", "mbk": "111" },
+        { "product": "6x25 Filler Wire", "d": "0.77", "kg/m": "0.52", "mbk": "101" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x36 Warrington Seale", "d": "0.67", "kg/m": "0.52", "mbk": "99.3" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" }
+      ]
+    },
+    {
+      "id": 5,
+      "rope": "014",
+      "rollers": "280",
+      "data": [
+        { "product": "6x7 Standard", "d": "1.50", "kg/m": "0.67", "mbk": "134" },
+        { "product": "6x7 Standard", "d": "1.60", "kg/m": "0.75", "mbk": "152" },
+        { "product": "6x19 Seale", "d": "1.13", "kg/m": "0.70", "mbk": "138" },
+        { "product": "6x19 Seale kompaktiert", "d": "1.18", "kg/m": "0.76", "mbk": "152" },
+        { "product": "6x25 Filler Wire", "d": "0.90", "kg/m": "0.71", "mbk": "138" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x36 Warrington Seale", "d": "0.78", "kg/m": "0.71", "mbk": "135" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "1.11", "kg/m": "1.44", "mbk": "276" },
+        { "product": "8x36 Warrington Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" }
+      ]
+    },
+    {
+      "id": 6,
+      "rope": "015",
+      "rollers": "300",
+      "data": [
+        { "product": "6x7 Standard", "d": "1.60", "kg/m": "0.76", "mbk": "152" },
+        { "product": "6x7 Standard", "d": "1.70", "kg/m": "0.85", "mbk": "173" },
+        { "product": "6x19 Seale", "d": "1.20", "kg/m": "0.79", "mbk": "157" },
+        { "product": "6x19 Seale kompaktiert", "d": "1.26", "kg/m": "0.86", "mbk": "173" },
+        { "product": "6x25 Filler Wire", "d": "0.97", "kg/m": "0.82", "mbk": "158" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x36 Warrington Seale", "d": "0.85", "kg/m": "0.82", "mbk": "156" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" }
+      ]
+    },
+    {
+      "id": 7,
+      "rope": "016",
+      "rollers": "320",
+      "data": [
+        { "product": "6x7 Standard", "d": "1.70", "kg/m": "0.85", "mbk": "171" },
+        { "product": "6x7 Standard", "d": "1.82", "kg/m": "0.97", "mbk": "197" },
+        { "product": "6x19 Seale", "d": "1.29", "kg/m": "0.91", "mbk": "180" },
+        { "product": "6x19 Seale kompaktiert", "d": "1.35", "kg/m": "1.00", "mbk": "200" },
+        { "product": "6x25 Filler Wire", "d": "1.02", "kg/m": "0.93", "mbk": "179" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "1.07", "kg/m": "0.99", "mbk": "195" },
+        { "product": "6x36 Warrington Seale", "d": "0.90", "kg/m": "0.92", "mbk": "176" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" }
+      ]
+    },
+    {
+      "id": 8,
+      "rope": "018",
+      "rollers": "360",
+      "data": [
+        { "product": "6x7 Standard", "d": "1.91", "kg/m": "1.08", "mbk": "217" },
+        { "product": "6x7 Standard", "d": "2.07", "kg/m": "1.25", "mbk": "254" },
+        { "product": "6x19 Seale", "d": "1.45", "kg/m": "1.15", "mbk": "228" },
+        { "product": "6x19 Seale kompaktiert", "d": "1.52", "kg/m": "1.25", "mbk": "251" },
+        { "product": "6x25 Filler Wire", "d": "1.16", "kg/m": "1.18", "mbk": "228" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "1.21", "kg/m": "1.28", "mbk": "251" },
+        { "product": "6x36 Warrington Seale", "d": "1.01", "kg/m": "1.17", "mbk": "224" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler", "d": "0.96", "kg/m": "1.11", "mbk": "205" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "0.99", "kg/m": "1.15", "mbk": "221" },
+        { "product": "8x36 Warrington Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" }
+      ]
+    },
+    {
+      "id": 9,
+      "rope": "020",
+      "rollers": "400",
+      "data": [
+        { "product": "6x7 Standard", "d": "2.13", "kg/m": "1.34", "mbk": "268" },
+        { "product": "6x7 Standard", "d": "2.28", "kg/m": "1.52", "mbk": "308" },
+        { "product": "6x19 Seale", "d": "1.61", "kg/m": "1.41", "mbk": "280" },
+        { "product": "6x19 Seale kompaktiert", "d": "1.68", "kg/m": "1.53", "mbk": "307" },
+        { "product": "6x25 Filler Wire", "d": "1.28", "kg/m": "1.45", "mbk": "281" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "1.34", "kg/m": "1.56", "mbk": "306" },
+        { "product": "6x36 Warrington Seale", "d": "1.14", "kg/m": "1.46", "mbk": "279" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler", "d": "1.06", "kg/m": "1.36", "mbk": "252" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "1.11", "kg/m": "1.44", "mbk": "276" },
+        { "product": "8x36 Warrington Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" }
+      ]
+    },
+    {
+      "id": 10,
+      "rope": "022",
+      "rollers": "440",
+      "data": [
+        { "product": "6x7 Standard", "d": "2.34", "kg/m": "1.62", "mbk": "324" },
+        { "product": "6x7 Standard", "d": "2.52", "kg/m": "1.86", "mbk": "377" },
+        { "product": "6x19 Seale", "d": "1.77", "kg/m": "1.71", "mbk": "339" },
+        { "product": "6x19 Seale kompaktiert", "d": "1.85", "kg/m": "1.85", "mbk": "371" },
+        { "product": "6x25 Filler Wire", "d": "1.42", "kg/m": "1.76", "mbk": "341" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "1.47", "kg/m": "1.89", "mbk": "370" },
+        { "product": "6x36 Warrington Seale", "d": "1.25", "kg/m": "1.77", "mbk": "339" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler", "d": "1.17", "kg/m": "1.65", "mbk": "306" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "1.21", "kg/m": "1.71", "mbk": "328" },
+        { "product": "8x36 Warrington Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" }
+      ]
+    },
+    {
+      "id": 11,
+      "rope": "024",
+      "rollers": "480",
+      "data": [
+        { "product": "6x7 Standard", "d": "2.56", "kg/m": "1.93", "mbk": "388" },
+        { "product": "6x7 Standard", "d": "2.74", "kg/m": "2.19", "mbk": "444" },
+        { "product": "6x19 Seale", "d": "1.92", "kg/m": "2.03", "mbk": "402" },
+        { "product": "6x19 Seale kompaktiert", "d": "2.03", "kg/m": "2.23", "mbk": "446" },
+        { "product": "6x25 Filler Wire", "d": "1.55", "kg/m": "2.10", "mbk": "407" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "1.60", "kg/m": "2.22", "mbk": "434" },
+        { "product": "6x36 Warrington Seale", "d": "1.36", "kg/m": "2.09", "mbk": "400" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler", "d": "1.27", "kg/m": "1.95", "mbk": "361" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "1.33", "kg/m": "2.06", "mbk": "395" },
+        { "product": "8x36 Warrington Seale", "d": "1.12", "kg/m": "1.95", "mbk": "362" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "1.17", "kg/m": "2.11", "mbk": "399" }
+      ]
+    },
+    {
+      "id": 12,
+      "rope": "025",
+      "rollers": "500",
+      "data": [
+        { "product": "6x7 Standard", "d": "2.66", "kg/m": "2.09", "mbk": "419" },
+        { "product": "6x7 Standard", "d": "2.85", "kg/m": "2.38", "mbk": "482" },
+        { "product": "6x19 Seale", "d": "2.02", "kg/m": "2.22", "mbk": "440" },
+        { "product": "6x19 Seale kompaktiert", "d": "2.10", "kg/m": "2.39", "mbk": "480" },
+        { "product": "6x25 Filler Wire", "d": "1.61", "kg/m": "2.26", "mbk": "438" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "1.66", "kg/m": "2.42", "mbk": "474" },
+        { "product": "6x36 Warrington Seale", "d": "1.42", "kg/m": "2.28", "mbk": "436" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler", "d": "1.33", "kg/m": "2.13", "mbk": "395" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "1.39", "kg/m": "2.25", "mbk": "431" },
+        { "product": "8x36 Warrington Seale", "d": "1.17", "kg/m": "2.14", "mbk": "396" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "1.22", "kg/m": "2.29", "mbk": "433" }
+      ]
+    },
+    {
+      "id": 13,
+      "rope": "026",
+      "rollers": "520",
+      "data": [
+        { "product": "6x7 Standard", "d": "2.77", "kg/m": "2.26", "mbk": "454" },
+        { "product": "6x7 Standard", "d": "2.97", "kg/m": "2.58", "mbk": "522" },
+        { "product": "6x19 Seale", "d": "2.10", "kg/m": "2.40", "mbk": "476" },
+        { "product": "6x19 Seale kompaktiert", "d": "2.20", "kg/m": "2.62", "mbk": "525" },
+        { "product": "6x25 Filler Wire", "d": "1.67", "kg/m": "2.44", "mbk": "473" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "1.74", "kg/m": "2.63", "mbk": "515" },
+        { "product": "6x36 Warrington Seale", "d": "1.48", "kg/m": "2.47", "mbk": "473" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler", "d": "1.38", "kg/m": "2.31", "mbk": "427" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "1.44", "kg/m": "2.42", "mbk": "464" },
+        { "product": "8x36 Warrington Seale", "d": "1.22", "kg/m": "2.31", "mbk": "427" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "1.27", "kg/m": "2.47", "mbk": "469" }
+      ]
+    },
+    {
+      "id": 14,
+      "rope": "028",
+      "rollers": "560",
+      "data": [
+        { "product": "6x7 Standard", "d": "3.00", "kg/m": "2.65", "mbk": "531" },
+        { "product": "6x7 Standard", "d": "3.20", "kg/m": "2.99", "mbk": "607" },
+        { "product": "6x19 Seale", "d": "2.25", "kg/m": "2.76", "mbk": "547" },
+        { "product": "6x19 Seale kompaktiert", "d": "2.37", "kg/m": "3.04", "mbk": "610" },
+        { "product": "6x25 Filler Wire", "d": "1.80", "kg/m": "2.83", "mbk": "548" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "1.87", "kg/m": "3.05", "mbk": "598" },
+        { "product": "6x36 Warrington Seale", "d": "1.58", "kg/m": "2.84", "mbk": "545" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "8x25 Filler", "d": "1.49", "kg/m": "2.68", "mbk": "496" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "1.55", "kg/m": "2.80", "mbk": "536" },
+        { "product": "8x36 Warrington Seale", "d": "1.31", "kg/m": "2.67", "mbk": "495" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "1.37", "kg/m": "2.87", "mbk": "544" }
+      ]
+    },
+    {
+      "id": 15,
+      "rope": "030",
+      "rollers": "600",
+      "data": [
+        { "product": "6x7 Standard", "d": "3.20", "kg/m": "3.01", "mbk": "604" },
+        { "product": "6x7 Standard", "d": "3.44", "kg/m": "3.46", "mbk": "701" },
+        { "product": "6x19 Seale", "d": "2.42", "kg/m": "3.18", "mbk": "631" },
+        { "product": "6x19 Seale kompaktiert", "d": "2.55", "kg/m": "3.52", "mbk": "706" },
+        { "product": "6x25 Filler Wire", "d": "1.93", "kg/m": "3.25", "mbk": "630" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "2.00", "kg/m": "3.50", "mbk": "686" },
+        { "product": "6x36 Warrington Seale", "d": "1.70", "kg/m": "3.27", "mbk": "626" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "1.77", "kg/m": "3.55", "mbk": "687" },
+        { "product": "8x25 Filler", "d": "1.60", "kg/m": "3.08", "mbk": "570" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "1.66", "kg/m": "3.22", "mbk": "616" },
+        { "product": "8x36 Warrington Seale", "d": "1.41", "kg/m": "3.09", "mbk": "573" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "1.47", "kg/m": "3.29", "mbk": "624" }
+      ]
+    },
+    {
+      "id": 16,
+      "rope": "032",
+      "rollers": "640",
+      "data": [
+        { "product": "6x7 Standard", "d": "3.42", "kg/m": "3.45", "mbk": "691" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "2.58", "kg/m": "3.63", "mbk": "719" },
+        { "product": "6x19 Seale kompaktiert", "d": "2.70", "kg/m": "3.93", "mbk": "789" },
+        { "product": "6x25 Filler Wire", "d": "2.07", "kg/m": "3.73", "mbk": "722" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "2.15", "kg/m": "4.03", "mbk": "789" },
+        { "product": "6x36 Warrington Seale", "d": "1.81", "kg/m": "3.71", "mbk": "711" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "1.88", "kg/m": "4.00", "mbk": "774" },
+        { "product": "8x25 Filler", "d": "1.70", "kg/m": "3.49", "mbk": "646" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "1.77", "kg/m": "3.66", "mbk": "702" },
+        { "product": "8x36 Warrington Seale", "d": "1.51", "kg/m": "3.54", "mbk": "656" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "1.57", "kg/m": "3.75", "mbk": "710" }
+      ]
+    },
+    {
+      "id": 17,
+      "rope": "034",
+      "rollers": "680",
+      "data": [
+        { "product": "6x7 Standard", "d": "3.63", "kg/m": "3.88", "mbk": "777" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "2.74", "kg/m": "4.08", "mbk": "810" },
+        { "product": "6x19 Seale kompaktiert", "d": "2.89", "kg/m": "4.51", "mbk": "904" },
+        { "product": "6x25 Filler Wire", "d": "2.19", "kg/m": "4.18", "mbk": "810" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "2.28", "kg/m": "4.51", "mbk": "884" },
+        { "product": "6x36 Warrington Seale", "d": "1.93", "kg/m": "4.22", "mbk": "809" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "2.00", "kg/m": "4.51", "mbk": "873" },
+        { "product": "8x25 Filler", "d": "1.81", "kg/m": "3.94", "mbk": "729" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "1.88", "kg/m": "4.15", "mbk": "795" },
+        { "product": "8x36 Warrington Seale", "d": "1.60", "kg/m": "3.97", "mbk": "736" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "1.67", "kg/m": "4.24", "mbk": "803" }
+      ]
+    },
+    {
+      "id": 18,
+      "rope": "035",
+      "rollers": "700",
+      "data": [
+        { "product": "6x7 Standard", "d": "3.73", "kg/m": "4.11", "mbk": "824" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "2.83", "kg/m": "4.36", "mbk": "863" },
+        { "product": "6x19 Seale kompaktiert", "d": "2.95", "kg/m": "4.71", "mbk": "945" },
+        { "product": "6x25 Filler Wire", "d": "2.26", "kg/m": "4.44", "mbk": "860" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "2.35", "kg/m": "4.79", "mbk": "938" },
+        { "product": "6x36 Warrington Seale", "d": "1.95", "kg/m": "4.35", "mbk": "834" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "2.06", "kg/m": "4.79", "mbk": "928" },
+        { "product": "8x25 Filler", "d": "1.87", "kg/m": "4.20", "mbk": "778" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "1.94", "kg/m": "4.40", "mbk": "842" },
+        { "product": "8x36 Warrington Seale", "d": "1.65", "kg/m": "4.22", "mbk": "782" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "1.72", "kg/m": "4.49", "mbk": "851" }
+      ]
+    },
+    {
+      "id": 19,
+      "rope": "036",
+      "rollers": "720",
+      "data": [
+        { "product": "6x7 Standard", "d": "3.85", "kg/m": "4.37", "mbk": "876" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "2.90", "kg/m": "4.58", "mbk": "908" },
+        { "product": "6x19 Seale kompaktiert", "d": "3.05", "kg/m": "5.02", "mbk": "1007" },
+        { "product": "6x25 Filler Wire", "d": "2.33", "kg/m": "4.71", "mbk": "913" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "2.41", "kg/m": "5.05", "mbk": "989" },
+        { "product": "6x36 Warrington Seale", "d": "2.04", "kg/m": "4.72", "mbk": "905" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "2.13", "kg/m": "5.13", "mbk": "993" },
+        { "product": "8x25 Filler", "d": "1.92", "kg/m": "4.42", "mbk": "819" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "2.00", "kg/m": "4.65", "mbk": "890" },
+        { "product": "8x36 Warrington Seale", "d": "1.69", "kg/m": "4.45", "mbk": "825" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "1.76", "kg/m": "4.73", "mbk": "896" }
+      ]
+    },
+    {
+      "id": 20,
+      "rope": "038",
+      "rollers": "760",
+      "data": [
+        { "product": "6x7 Standard", "d": "4.05", "kg/m": "4.83", "mbk": "968" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "3.07", "kg/m": "5.13", "mbk": "1017" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "2.45", "kg/m": "5.22", "mbk": "1012" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "2.54", "kg/m": "5.61", "mbk": "1100" },
+        { "product": "6x36 Warrington Seale", "d": "2.15", "kg/m": "5.25", "mbk": "1005" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "2.25", "kg/m": "5.72", "mbk": "1107" },
+        { "product": "8x25 Filler", "d": "2.03", "kg/m": "4.95", "mbk": "917" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "2.11", "kg/m": "5.18", "mbk": "992" },
+        { "product": "8x36 Warrington Seale", "d": "1.79", "kg/m": "4.99", "mbk": "924" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "1.86", "kg/m": "5.27", "mbk": "999" }
+      ]
+    },
+    {
+      "id": 21,
+      "rope": "040",
+      "rollers": "800",
+      "data": [
+        { "product": "6x7 Standard", "d": "4.28", "kg/m": "5.40", "mbk": "1082" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "3.23", "kg/m": "5.67", "mbk": "1123" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "2.58", "kg/m": "5.79", "mbk": "1122" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "2.68", "kg/m": "6.23", "mbk": "1220" },
+        { "product": "6x36 Warrington Seale", "d": "2.27", "kg/m": "5.81", "mbk": "1112" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "2.35", "kg/m": "6.25", "mbk": "1211" },
+        { "product": "8x25 Filler", "d": "2.13", "kg/m": "5.46", "mbk": "1011" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "2.22", "kg/m": "5.74", "mbk": "1100" },
+        { "product": "8x36 Warrington Seale", "d": "1.88", "kg/m": "5.50", "mbk": "1019" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "1.95", "kg/m": "5.81", "mbk": "1100" }
+      ]
+    },
+    {
+      "id": 22,
+      "rope": "042",
+      "rollers": "840",
+      "data": [
+        { "product": "6x7 Standard", "d": "4.48", "kg/m": "5.91", "mbk": "1185" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "3.39", "kg/m": "6.25", "mbk": "1239" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "2.71", "kg/m": "6.40", "mbk": "1240" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "2.82", "kg/m": "6.90", "mbk": "1352" },
+        { "product": "6x36 Warrington Seale", "d": "2.38", "kg/m": "6.40", "mbk": "1227" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "2.48", "kg/m": "6.90", "mbk": "1337" },
+        { "product": "8x25 Filler", "d": "2.24", "kg/m": "6.02", "mbk": "1116" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "2.33", "kg/m": "6.33", "mbk": "1213" },
+        { "product": "8x36 Warrington Seale", "d": "1.97", "kg/m": "6.04", "mbk": "1118" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "2.05", "kg/m": "6.41", "mbk": "1214" }
+      ]
+    },
+    {
+      "id": 23,
+      "rope": "044",
+      "rollers": "880",
+      "data": [
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "3.55", "kg/m": "6.84", "mbk": "1357" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "2.85", "kg/m": "7.06", "mbk": "1368" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "2.95", "kg/m": "7.57", "mbk": "1484" },
+        { "product": "6x36 Warrington Seale", "d": "2.50", "kg/m": "7.06", "mbk": "1352" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "2.59", "kg/m": "7.57", "mbk": "1466" },
+        { "product": "8x25 Filler", "d": "2.35", "kg/m": "6.61", "mbk": "1225" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "2.44", "kg/m": "6.93", "mbk": "1328" },
+        { "product": "8x36 Warrington Seale", "d": "2.07", "kg/m": "6.66", "mbk": "1233" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "2.16", "kg/m": "7.11", "mbk": "1350" }
+      ]
+    },
+    {
+      "id": 24,
+      "rope": "045",
+      "rollers": "900",
+      "data": [
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "3.63", "kg/m": "7.17", "mbk": "1421" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "2.91", "kg/m": "7.35", "mbk": "1424" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "3.02", "kg/m": "7.88", "mbk": "1545" },
+        { "product": "6x36 Warrington Seale", "d": "2.57", "kg/m": "7.40", "mbk": "1417" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "2.65", "kg/m": "7.88", "mbk": "1528" },
+        { "product": "8x25 Filler", "d": "2.40", "kg/m": "6.92", "mbk": "1281" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "2.49", "kg/m": "7.23", "mbk": "1385" },
+        { "product": "8x36 Warrington Seale", "d": "2.12", "kg/m": "6.98", "mbk": "1293" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "2.21", "kg/m": "7.42", "mbk": "1405" }
+      ]
+    },
+    {
+      "id": 25,
+      "rope": "046",
+      "rollers": "920",
+      "data": [
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "3.72", "kg/m": "7.52", "mbk": "1492" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "2.97", "kg/m": "7.65", "mbk": "1482" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "3.08", "kg/m": "8.23", "mbk": "1613" },
+        { "product": "6x36 Warrington Seale", "d": "2.60", "kg/m": "7.67", "mbk": "1605" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "2.46", "kg/m": "7.25", "mbk": "1344" },
+        { "product": "8x25 Filler", "d": "2.56", "kg/m": "7.63", "mbk": "1462" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "2.17", "kg/m": "7.31", "mbk": "1354" },
+        { "product": "8x36 Warrington Seale", "d": "2.26", "kg/m": "7.76", "mbk": "1469" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "2.21", "kg/m": "7.42", "mbk": "F" }
+      ]
+    },
+    {
+      "id": 26,
+      "rope": "048",
+      "rollers": "960",
+      "data": [
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "3.88", "kg/m": "8.16", "mbk": "1617" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "3.10", "kg/m": "8.35", "mbk": "1617" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "3.22", "kg/m": "8.93", "mbk": "1750" },
+        { "product": "6x36 Warrington Seale", "d": "2.73", "kg/m": "8.39", "mbk": "1607" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "2.83", "kg/m": "8.96", "mbk": "1736" },
+        { "product": "8x25 Filler", "d": "2.56", "kg/m": "7.87", "mbk": "1458" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "2.67", "kg/m": "8.28", "mbk": "1587" },
+        { "product": "8x36 Warrington Seale", "d": "2.26", "kg/m": "7.96", "mbk": "1474" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "2.35", "kg/m": "8.41", "mbk": "1593" }
+      ]
+    },
+    {
+      "id": 27,
+      "rope": "050",
+      "rollers": "1000",
+      "data": [
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "4.05", "kg/m": "8.90", "mbk": "1765" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "3.23", "kg/m": "9.06", "mbk": "1756" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "3.35", "kg/m": "9.70", "mbk": "1902" },
+        { "product": "6x36 Warrington Seale", "d": "2.84", "kg/m": "9.12", "mbk": "1747" },
+        { "product": "6x36 Warrington Seale kompakt.", "d": "2.95", "kg/m": "9.75", "mbk": "1889" },
+        { "product": "8x25 Filler", "d": "2.67", "kg/m": "8.54", "mbk": "1582" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "2.78", "kg/m": "8.99", "mbk": "1722" },
+        { "product": "8x36 Warrington Seale", "d": "2.35", "kg/m": "8.60", "mbk": "1593" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "2.45", "kg/m": "9.10", "mbk": "1724" }
+      ]
+    },
+    {
+      "id": 28,
+      "rope": "052",
+      "rollers": "1040",
+      "data": [
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "3.36", "kg/m": "9.80", "mbk": "1898" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "3.50", "kg/m": "10.56", "mbk": "2070" },
+        { "product": "6x36 Warrington Seale", "d": "2.96", "kg/m": "9.86", "mbk": "1888" },
+        {
+          "product": "6x36 Warrington Seale kompakt.",
+          "d": "3.07",
+          "kg/m": "10.56",
+          "mbk": "2046"
+        },
+        { "product": "8x25 Filler", "d": "2.78", "kg/m": "9.27", "mbk": "1717" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "2.89", "kg/m": "9.72", "mbk": "1862" },
+        { "product": "8x36 Warrington Seale", "d": "2.45", "kg/m": "9.30", "mbk": "1724" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "2.55", "kg/m": "9.87", "mbk": "1870" }
+      ]
+    },
+    {
+      "id": 29,
+      "rope": "054",
+      "rollers": "1080",
+      "data": [
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "3.49", "kg/m": "10.57", "mbk": "2048" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x36 Warrington Seale", "d": "3.07", "kg/m": "10.59", "mbk": "2028" },
+        {
+          "product": "6x36 Warrington Seale kompakt.",
+          "d": "3.20",
+          "kg/m": "11.42",
+          "mbk": "2212"
+        },
+        { "product": "8x25 Filler", "d": "2.89", "kg/m": "9.99", "mbk": "1851" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "3.01", "kg/m": "10.53", "mbk": "2017" },
+        { "product": "8x36 Warrington Seale", "d": "2.54", "kg/m": "10.03", "mbk": "1858" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "2.65", "kg/m": "10.68", "mbk": "2023" }
+      ]
+    },
+    {
+      "id": 30,
+      "rope": "055",
+      "rollers": "1100",
+      "data": [
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "3.55", "kg/m": "10.95", "mbk": "2122" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x36 Warrington Seale", "d": "3.13", "kg/m": "11.02", "mbk": "2112" },
+        {
+          "product": "6x36 Warrington Seale kompakt.",
+          "d": "3.25",
+          "kg/m": "11.82",
+          "mbk": "2291"
+        },
+        { "product": "8x25 Filler", "d": "2.94", "kg/m": "10.33", "mbk": "1914" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "3.06", "kg/m": "10.87", "mbk": "2083" },
+        { "product": "8x36 Warrington Seale", "d": "2.59", "kg/m": "10.43", "mbk": "1931" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "2.70", "kg/m": "11.06", "mbk": "2094" }
+      ]
+    },
+    {
+      "id": 31,
+      "rope": "056",
+      "rollers": "1120",
+      "data": [
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "3.62", "kg/m": "11.36", "mbk": "2201" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x36 Warrington Seale", "d": "3.18", "kg/m": "11.39", "mbk": "2182" },
+        {
+          "product": "6x36 Warrington Seale kompakt.",
+          "d": "3.39",
+          "kg/m": "12.19",
+          "mbk": "2361"
+        },
+        { "product": "8x25 Filler", "d": "3.00", "kg/m": "10.76", "mbk": "1993" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "3.12", "kg/m": "11.32", "mbk": "2169" },
+        { "product": "8x36 Warrington Seale", "d": "2.64", "kg/m": "10.83", "mbk": "2006" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "2.75", "kg/m": "11.46", "mbk": "2171" }
+      ]
+    },
+    {
+      "id": 32,
+      "rope": "058",
+      "rollers": "1160",
+      "data": [
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "3.75", "kg/m": "12.22", "mbk": "2368" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x36 Warrington Seale", "d": "3.30", "kg/m": "12.22", "mbk": "2341" },
+        {
+          "product": "6x36 Warrington Seale kompakt.",
+          "d": "3.43",
+          "kg/m": "13.16",
+          "mbk": "2550"
+        },
+        { "product": "8x25 Filler", "d": "3.10", "kg/m": "11.51", "mbk": "2132" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "3.23", "kg/m": "12.15", "mbk": "2327" },
+        { "product": "8x36 Warrington Seale", "d": "2.74", "kg/m": "11.63", "mbk": "2155" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "2.85", "kg/m": "12.31", "mbk": "2331" }
+      ]
+    },
+    {
+      "id": 33,
+      "rope": "060",
+      "rollers": "1200",
+      "data": [
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x7 Standard", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x19 Seale kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x25 Filler Wire", "d": "3.88", "kg/m": "13.06", "mbk": "2531" },
+        { "product": "6x25 Filler Wire kompaktiert", "d": "-", "kg/m": "-", "mbk": "-" },
+        { "product": "6x36 Warrington Seale", "d": "3.41", "kg/m": "13.11", "mbk": "2512" },
+        {
+          "product": "6x36 Warrington Seale kompakt.",
+          "d": "3.55",
+          "kg/m": "14.09",
+          "mbk": "2730"
+        },
+        { "product": "8x25 Filler", "d": "3.21", "kg/m": "12.32", "mbk": "2282" },
+        { "product": "8x25 Filler Wire kompaktiert", "d": "3.34", "kg/m": "12.96", "mbk": "2483" },
+        { "product": "8x36 Warrington Seale", "d": "2.83", "kg/m": "12.42", "mbk": "2301" },
+        { "product": "8x36 Warrington Seale kompakt.", "d": "2.95", "kg/m": "13.19", "mbk": "2498" }
+      ]
+    }
+  ]
+}

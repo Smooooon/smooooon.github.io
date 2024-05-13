@@ -1,0 +1,21 @@
+{
+  "name": "Fatzer Seischieber",
+  "short_name": "Seischieber",
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#b3b3b3",
+  "theme_color": "#e9e9e9",
+  "icons": [
+    {
+      "src": "/staticImages/android-chrome-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "/staticImages/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ]
+}
