@@ -12,40 +12,44 @@
 <template>
   <div>
     <section id="appDescription">
-      <h1>Seilschieber-APP</h1>
-      <p class="introText">
-        «Seilschieber» ist ein APP, das Ihnen hilft, die technischen Seildaten von Seilbahnseilen zu
-        ermitteln. Sie können den Seiltyp und die jeweilige Größe auswählen und bekommen im Gegenzug
-        Richtwerte der technischen Seildaten für verschiedene Konstruktionen.
+      <h1>Seilschieber</h1>
+      <p class="introText bold">
+        Einfach Richtwerte der technischen Seildaten für verschiedene Konstruktionen berechnen.
       </p>
-      <h2>Seilschieber bietet Ihnen folgende Funktionen:</h2>
+      <h2>So geht's</h2>
       <ul>
-        <li><p>Sie können zwischen Litzenseilen und Vollverschlossenen Seilen wählen.</p></li>
-        <li><p>Sie können die Seilgröße in Millimetern aus einer Liste auswählen.</p></li>
+        <li><p>Wählen Sie zwischen Litzenseilen und vollverschlossenen Seilen</p></li>
+        <li><p>Bestimmen Sie die Seilgröße in Millimetern</p></li>
         <li>
           <p>
-            Bei Litzenseilen bekommen folgende Kennwerte: Durchmesser vom Aussendraht, das Gewicht
-            pro Meter und die Mindestbruchkraft (kurz MBK).
+            Bei Litzenseilen werden folgende Kennwerte ausgegeben: Durchmesser vom Aussendraht,
+            Gewicht pro Meter und Mindestbruchkraft (kurz MBK)
           </p>
         </li>
         <li>
           <p>
-            Sie bekommen das Gewicht pro Meter und die Mindestbruchkraft für Vollverschlossene Seile
-            angezeigt.
+            Bei vollverschlossenen Seilen werden das Gewicht pro Meter und die Mindestbruchkraft
+            ausgegeben
           </p>
         </li>
       </ul>
       <p>
-        «Seilschieber» ist ein nützliches Werkzeug für Monteure, Seilbahnplaner, Betreiber und
-        Techniker, die schnell und einfach Richtwerte für die technischen Seildaten von
-        Seilbahnseilen abrufen wollen. «Seilschieber» basiert auf den Seiltabellen der Firma FATZER
-        und gibt Ihnen Richtwerte, die jedoch nicht verbindlich sind. Für eine genaue Berechnung und
-        Dimensionierung der Seile sollten Sie uns immer direkt kontaktieren und die geltenden Normen
-        und Vorschriften beachten.<br />
-        Wir freuen uns, dass Sie «Seilschieber» nutzen und hoffen, dass Sie mit unserem APP
-        zufrieden sind. Wenn Sie Fragen, Anregungen oder Feedback haben, können Sie uns gerne
-        kontaktieren. Wir wünschen Ihnen viel Spass und Erfolg mit der «Seilschieber-APP».
+        «Seilschieber» basiert auf den Seiltabellen der Firma FATZER. Es handelt sich dabei um
+        Richtwerte, die nicht verbindlich sind. Für eine genaue Berechnung und Dimensionierung der
+        Seile kontaktieren Sie uns immer direkt und beachten die geltenden Normen und Vorschriften.
+        <br /><br />
       </p>
+      <p class="bold">Wählen Sie dafür den Seiltyp und die gewünschte Grösse aus.</p>
+    </section>
+    <section id="types">
+      <RouterLink :to="{ name: 'litzenseile' }" class="typeLinkArea">
+        <img src="../assets/images/FATZER_Stabilo_Litzenseil_Web.png" alt="litzenseile" />
+        <p>LITZENSEILE</p>
+      </RouterLink>
+      <RouterLink :to="{ name: 'vv-seile' }" class="typeLinkArea">
+        <img src="../assets/images/FATZER_Integra_vollverschlossen_Web.png" alt="vv-seile" />
+        <p>VV-SEILE</p>
+      </RouterLink>
     </section>
     <section id="importantNotes">
       <h2>Wichtige Hinweise</h2>
@@ -58,13 +62,13 @@
         </li>
         <li>
           <p>
-            die effektive Bruchkraft von beschädigten oder verformten Seilen kann weit tiefer liegen
-            als deren Mindestbruchkraft
+            die effektive Bruchkraft von beschädigten oder verformten Seilen kann tiefer liegen als
+            deren Mindestbruchkraft
           </p>
         </li>
         <li>
           <p>
-            bei Montagearbeiten Sicherheitsfaktor von mindestens 2.5 einhalten.Starke
+            bei Montagearbeiten Sicherheitsfaktor von mindestens 2.5 einhalten. Starke
             Bruchlastminderung der Mindestbruchkraft durch Kanten, zu kleine Umlenkradien, etc.,
             berücksichtigen
           </p>
@@ -115,6 +119,35 @@ ul {
 
 .forCaching {
   display: none;
+}
+
+#types {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.typeLinkArea {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.typeLinkArea:hover {
+  transform: scale(1.1);
+}
+
+.typeLinkArea img {
+  width: 80%;
+}
+
+.typeLinkArea p {
+  width: 100%;
 }
 
 /************* MediaQueries *************/

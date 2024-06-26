@@ -193,7 +193,6 @@ select {
 }
 
 .tooltip .tooltiptext {
-  visibility: hidden;
   width: 280px;
   background-color: black;
   color: #fff;
@@ -213,7 +212,19 @@ select {
   visibility: visible;
 }
 
+/* For toggle function */
+.visible {
+  visibility: visible !important;
+}
+
 /************* Popup Ende *************/
+/************* Table design*************/
+.table td > span {
+  color: var(--color-text) !important;
+  font-weight: normal !important;
+}
+
+/************* Table design Ende*************/
 
 /************* MediaQueries *************/
 /* grosse Bildschirme */
@@ -222,10 +233,17 @@ select {
 
 /* Bildschirme main Bereich + 2x 35px margin */
 @media screen and (max-width: 1234px) {
+  .tooltip .tooltiptext {
+    visibility: hidden;
+  }
 }
 
 /* Tabletversion */
 @media screen and (max-width: 63em) {
+  body {
+    font-size: 17px;
+  }
+
   main {
     margin-left: unset;
     padding-top: 120px;

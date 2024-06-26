@@ -16,7 +16,7 @@ let currentYear = new Date().getFullYear()
     <p id="slogan" class="bold">Building Strong Connections</p>
     <div>
       <p class="bold">©Fatzer AG</p>
-      <p id="createsText" class="bold">Created by XXX {{ currentYear }}</p>
+      <p id="createsText" class="bold">Created by symas gmbh {{ currentYear }}</p>
     </div>
   </footer>
 </template>

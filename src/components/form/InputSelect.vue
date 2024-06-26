@@ -84,7 +84,7 @@ const computedValue = computed({
     >
       <option disabled value="">{{ placeholder }}</option>
       <option v-for="option in options" :key="option" :value="option[optionValueField] ?? option">
-        {{ option['rope'] }} ---------------------------------------- {{ option['rollers'] }}
+        {{ option['rope'] }} ---------- {{ option['rollers'] }}
       </option>
     </select>
   </div>
@@ -113,6 +113,7 @@ select {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
+  color: var(--color-text);
   background: url(../../assets/icons/arrow-down.svg) no-repeat;
   background-position: right 15px bottom 50%;
   background-size: 16px;

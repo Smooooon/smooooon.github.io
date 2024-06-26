@@ -4,7 +4,7 @@ import IconItem from '../components/icons/IconItem.vue'
 import InputSelect from '../components/form/InputSelect.vue'
 
 //import function/data
-import { computed } from 'vue'
+import { ref, computed } from 'vue'
 import { mdiInformationOutline } from '@mdi/js'
 
 //props & emits
@@ -22,6 +22,8 @@ const props = defineProps({
 const emit = defineEmits(['update:modelValue'])
 
 //properties
+const clickOnTooltip = ref(false)
+
 //computed properties
 const computedValue = computed({
   get: () => {
@@ -33,6 +35,10 @@ const computedValue = computed({
 })
 
 //methods
+function ToggleTooltip() {
+  clickOnTooltip.value = !clickOnTooltip.value
+}
+
 //watch functions
 //lifecycle hooks
 </script>
@@ -49,11 +55,11 @@ const computedValue = computed({
         optionValueField="id"
         class="averageInput"
       />
-      <div class="infoContainer tooltip">
-        <p>Infos</p>
+      <div class="infoContainer tooltip" @click="ToggleTooltip">
+        <p>Legende</p>
         <IconItem :path="mdiInformationOutline" size="30" />
         <!-- ToDo Use table -->
-        <div class="tooltiptext">
+        <div class="tooltiptext" :class="{ visible: clickOnTooltip }" @click="ToggleTooltip">
           <slot name="tooltip" />
         </div>
       </div>

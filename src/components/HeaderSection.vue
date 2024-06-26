@@ -5,7 +5,7 @@ import { computed } from 'vue'
 //import function/data
 //props & emits
 const props = defineProps({
-  imageName: {
+  image: {
     type: String,
     required: false
   },
@@ -24,8 +24,8 @@ const props = defineProps({
 
 <template>
   <section id="headerSection">
-    <div v-if="imageName" class="imageBackgroundCircle">
-      <img :src="`src/assets/images/${imageName}`" />
+    <div v-if="image" class="imageBackgroundCircle">
+      <img :src="image" />
     </div>
     <h1>{{ title }}</h1>
   </section>

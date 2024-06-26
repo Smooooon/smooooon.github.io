@@ -51,9 +51,9 @@ onMounted(() => {
 <template>
   <nav id="navigationBar" :class="{ active: isActive }">
     <div class="navigationHeaderContainer">
-      <RouterLink to="/" @click="toggleNavigationBar(true)">
+      <a href="https://www.fatzer.com" target="_blank">
         <img src="../../assets/logo.svg" alt="Logo" />
-      </RouterLink>
+      </a>
       <IconItem
         :path="mdiClose"
         class="navigationBarCloseButton cursor-pointer"
@@ -62,7 +62,11 @@ onMounted(() => {
       />
     </div>
     <div class="navigationBodyContainer">
-      <p>Seischieber</p>
+      <div>
+        <RouterLink to="/" @click="toggleNavigationBar(true)">
+          <p>Seilschieber</p>
+        </RouterLink>
+      </div>
       <ul>
         <li>
           <RouterLink :to="{ name: 'litzenseile' }" @click="toggleNavigationBar(true)"
@@ -129,6 +133,10 @@ onMounted(() => {
   overflow: auto;
 }
 
+.navigationBodyContainer > div {
+  padding-bottom: 40px;
+}
+
 /* scrollbar start */
 ::-webkit-scrollbar {
   width: 10px;
@@ -147,7 +155,6 @@ onMounted(() => {
 /* scrollbar end */
 
 #navigationBar p {
-  margin-bottom: 40px;
   text-align: center;
   font-size: 24px;
 }

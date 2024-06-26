@@ -35,7 +35,7 @@
   --color-text: var(--vt-c-black);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --color-primary: #77b5e0;
     --color-dark-gray: #b3b3b3;
@@ -48,4 +48,4 @@
     --color-heading: var(--color-primary);
     --color-text: var(--vt-c-text-dark-2);
   }
-}
+} */

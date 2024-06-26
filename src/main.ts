@@ -10,14 +10,14 @@ import VueGoodTablePlugin from 'vue-good-table-next'
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('/sw.js')
+    .register('./sw.js')
     .then((reg) => console.debug(reg))
     .catch((err) => console.error(err))
 }
 
 //Environment
 const environment = import.meta.env
-console.log('Environmentinfo Seischieber')
+console.log('Environmentinfo Seilschieber')
 console.log('App mode: ' + environment.MODE)
 console.debug('BASE_URL: ' + environment.BASE_URL)
 console.debug('PROD: ' + environment.PROD)

@@ -6,6 +6,7 @@ import DataSection from '../components/DataSection.vue'
 //import function/data
 import { ref } from 'vue'
 import litzenseile from '../assets/data/litzenseile.json'
+import image from '../assets/images/FATZER_Stabilo_Litzenseil_Web.png'
 import 'vue-good-table-next/dist/vue-good-table-next.css'
 
 //props & emits
@@ -38,7 +39,7 @@ const columns = ref([
 
 <template>
   <div>
-    <HeaderSection imageName="FATZER_Stabilo_Litzenseil_Web.png" title="Litzenseile" />
+    <HeaderSection :image="image" title="Litzenseile" />
     <DataSection v-model="selectedDiameterId" :diameterOptions="litzenseile.data">
       <template #tooltip>
         <p>d: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aussendrahtdurchmesser</p>

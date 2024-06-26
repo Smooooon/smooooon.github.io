@@ -6,6 +6,7 @@ import DataSection from '../components/DataSection.vue'
 //import function/data
 import { ref } from 'vue'
 import vvSeile from '../assets/data/vvSeile.json'
+import image from '../assets/images/FATZER_Integra_vollverschlossen_Web.png'
 import 'vue-good-table-next/dist/vue-good-table-next.css'
 
 //props & emits
@@ -34,10 +35,7 @@ const columns = ref([
 
 <template>
   <div>
-    <HeaderSection
-      imageName="FATZER_Integra_vollverschlossen_Web.png"
-      title="Vollverschlossene Seile"
-    />
+    <HeaderSection :image="image" title="Vollverschlossene Seile" />
     <DataSection v-model="selectedDiameterId" :diameterOptions="vvSeile.data">
       <template #tooltip>
         <p>kg/m: &nbsp; Seilmasse</p>
