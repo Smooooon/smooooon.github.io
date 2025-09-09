@@ -13,7 +13,13 @@ let currentYear = new Date().getFullYear()
 
 <template>
   <footer>
-    <p id="slogan" class="bold">Building Strong Connections</p>
+    <div>
+      <p class="bold">Building Strong Connections</p>
+      <div class="linkArea">
+        <a href="https://www.fatzer.com/de/impressum" target="_blank">Impressum</a>
+        <a href="https://www.fatzer.com/de/datenschutz" target="_blank">Datenschutz</a>
+      </div>
+    </div>
     <div>
       <p class="bold">©Fatzer AG</p>
       <p id="createsText" class="bold">Created by symas gmbh {{ currentYear }}</p>
@@ -33,12 +39,15 @@ footer {
   color: var(--vt-c-white);
 }
 
-#slogan {
-  font-size: 24px;
+.linkArea {
+  display: flex;
+  column-gap: 10px;
+  text-decoration: underline;
+  font-size: 10px;
 }
 
 #createsText {
-  font-size: 8px;
+  font-size: 10px;
 }
 
 /************* MediaQueries *************/
@@ -62,10 +71,6 @@ footer {
   footer {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  #slogan {
-    font-size: 16px;
   }
 }
 </style>

@@ -184,40 +184,6 @@ select {
   }
 }
 /************* Animation Content change Ende*************/
-/************* Popup *************/
-.tooltip {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  /*border-bottom: 1px dotted black;*/
-}
-
-.tooltip .tooltiptext {
-  width: 280px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 10px;
-  text-align: left;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 10;
-  bottom: 100%;
-  right: 0;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
-/* For toggle function */
-.visible {
-  visibility: visible !important;
-}
-
-/************* Popup Ende *************/
 /************* Table design*************/
 .table td > span {
   color: var(--color-text) !important;
@@ -233,9 +199,6 @@ select {
 
 /* Bildschirme main Bereich + 2x 35px margin */
 @media screen and (max-width: 1234px) {
-  .tooltip .tooltiptext {
-    visibility: hidden;
-  }
 }
 
 /* Tabletversion */

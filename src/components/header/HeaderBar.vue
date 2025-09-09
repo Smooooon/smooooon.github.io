@@ -26,7 +26,9 @@ const props = defineProps({
 
 <template>
   <header>
-    <p class="bold">SEILSCHIEBER</p>
+    <RouterLink to="/">
+      <p class="bold">SEILSCHIEBER</p>
+    </RouterLink>
     <div @click="toggleNavigationBar()" class="menuIcon">
       <IconItem v-if="!isActive" :path="mdiMenu" size="40" />
       <IconItem v-else :path="mdiClose" size="40" />

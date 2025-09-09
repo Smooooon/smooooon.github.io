@@ -2,6 +2,7 @@
 //import component
 import HeaderSection from '../components/HeaderSection.vue'
 import DataSection from '../components/DataSection.vue'
+import TooltipItem from '../components/tooltip/TooltipItem.vue'
 
 //import function/data
 import { ref } from 'vue'
@@ -38,16 +39,21 @@ const columns = ref([
     <HeaderSection :image="image" title="Vollverschlossene Seile" />
     <DataSection v-model="selectedDiameterId" :diameterOptions="vvSeile.data">
       <template #tooltip>
-        <p>kg/m: &nbsp; Seilmasse</p>
-        <p>
-          MBK: &nbsp;&nbsp; Mindestbruchkraft in kN bei
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          Drahtnennfestigkeit
-          <span class="bold"
-            >1960 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            N/mm2</span
-          >
-        </p>
+        <TooltipItem>
+          <template #content>
+            <div>
+              <p>kg/m:</p>
+              <p>Seilmasse</p>
+            </div>
+            <div>
+              <p>MBK:</p>
+              <p>
+                Mindestbruchkraft in kN bei Drahtnennfestigkeit <br />
+                <span class="bold">1960 N/mm2</span>
+              </p>
+            </div>
+          </template>
+        </TooltipItem>
       </template>
       <template #table>
         <vue-good-table

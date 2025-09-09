@@ -472,7 +472,7 @@
         { "product": "8x25 Filler", "d": "2.56", "kg/m": "7.63", "mbk": "1462" },
         { "product": "8x25 Filler Wire kompaktiert", "d": "2.17", "kg/m": "7.31", "mbk": "1354" },
         { "product": "8x36 Warrington Seale", "d": "2.26", "kg/m": "7.76", "mbk": "1469" },
-        { "product": "8x36 Warrington Seale kompakt.", "d": "2.21", "kg/m": "7.42", "mbk": "F" }
+        { "product": "8x36 Warrington Seale kompakt.", "d": "-", "kg/m": "-", "mbk": "-" }
       ]
     },
     {

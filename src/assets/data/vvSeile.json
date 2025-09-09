@@ -309,18 +309,18 @@
       "rope": "046",
       "rollers": "1840",
       "data": [
-        { "product": "VV-1 1570 N/mm2", "kg/m": "10.72", "mbk": "1830" },
-        { "product": "VV-2 1570 N/mm2", "kg/m": "11.23", "mbk": "1917" },
-        { "product": "VV-1 1670 N/mm2", "kg/m": "10.72", "mbk": "1946" },
-        { "product": "VV-2 1670 N/mm2", "kg/m": "11.23", "mbk": "2039" },
-        { "product": "VV-1 1770 N/mm2", "kg/m": "10.72", "mbk": "2063" },
-        { "product": "VV-2 1770 N/mm2", "kg/m": "11.23", "mbk": "2161" },
-        { "product": "VV-3 1570 N/mm2", "kg/m": "11.45", "mbk": "1964" },
-        { "product": "VV-4 1570 N/mm2", "kg/m": "11.68", "mbk": "1993" },
-        { "product": "VV-3 1670 N/mm2", "kg/m": "11.45", "mbk": "2089" },
-        { "product": "VV-4 1670 N/mm2", "kg/m": "11.68", "mbk": "2120" },
-        { "product": "VV-3 1770 N/mm2", "kg/m": "11.45", "mbk": "2214" },
-        { "product": "VV-4 1770 N/mm2", "kg/m": "11.68", "mbk": "2247" }
+        { "product": "VV-1 1570 N/mm2", "kg/m": "11.19", "mbk": "1830" },
+        { "product": "VV-2 1570 N/mm2", "kg/m": "11.72", "mbk": "1917" },
+        { "product": "VV-1 1670 N/mm2", "kg/m": "11.19", "mbk": "1946" },
+        { "product": "VV-2 1670 N/mm2", "kg/m": "11.72", "mbk": "2039" },
+        { "product": "VV-1 1770 N/mm2", "kg/m": "11.19", "mbk": "2063" },
+        { "product": "VV-2 1770 N/mm2", "kg/m": "11.72", "mbk": "2161" },
+        { "product": "VV-3 1570 N/mm2", "kg/m": "12.00", "mbk": "1964" },
+        { "product": "VV-4 1570 N/mm2", "kg/m": "12.18", "mbk": "1993" },
+        { "product": "VV-3 1670 N/mm2", "kg/m": "12.00", "mbk": "2089" },
+        { "product": "VV-4 1670 N/mm2", "kg/m": "12.18", "mbk": "2120" },
+        { "product": "VV-3 1770 N/mm2", "kg/m": "12.00", "mbk": "2214" },
+        { "product": "VV-4 1770 N/mm2", "kg/m": "12.18", "mbk": "2247" }
       ]
     },
     {

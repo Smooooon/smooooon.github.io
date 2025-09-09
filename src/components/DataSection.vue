@@ -1,11 +1,9 @@
 <script setup lang="ts">
 //import component
-import IconItem from '../components/icons/IconItem.vue'
 import InputSelect from '../components/form/InputSelect.vue'
 
 //import function/data
-import { ref, computed } from 'vue'
-import { mdiInformationOutline } from '@mdi/js'
+import { computed } from 'vue'
 
 //props & emits
 const props = defineProps({
@@ -22,8 +20,6 @@ const props = defineProps({
 const emit = defineEmits(['update:modelValue'])
 
 //properties
-const clickOnTooltip = ref(false)
-
 //computed properties
 const computedValue = computed({
   get: () => {
@@ -35,10 +31,6 @@ const computedValue = computed({
 })
 
 //methods
-function ToggleTooltip() {
-  clickOnTooltip.value = !clickOnTooltip.value
-}
-
 //watch functions
 //lifecycle hooks
 </script>
@@ -55,14 +47,8 @@ function ToggleTooltip() {
         optionValueField="id"
         class="averageInput"
       />
-      <div class="infoContainer tooltip" @click="ToggleTooltip">
-        <p>Legende</p>
-        <IconItem :path="mdiInformationOutline" size="30" />
-        <!-- ToDo Use table -->
-        <div class="tooltiptext" :class="{ visible: clickOnTooltip }" @click="ToggleTooltip">
-          <slot name="tooltip" />
-        </div>
-      </div>
+      <!-- Zwischenslot -->
+      <slot name="tooltip" />
     </div>
     <div class="table">
       <slot name="table" />
@@ -81,12 +67,6 @@ function ToggleTooltip() {
 .averageInput {
   max-width: 300px;
   width: 100%;
-}
-
-.infoContainer {
-  display: flex;
-  align-items: center;
-  column-gap: 5px;
 }
 
 .table {
@@ -119,10 +99,6 @@ function ToggleTooltip() {
   .averageInput {
     max-width: unset;
     width: 100%;
-  }
-
-  .tooltip .tooltiptext {
-    right: -100px;
   }
 }
 </style>
