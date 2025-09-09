@@ -64,7 +64,8 @@ const fromNetwork = (request, timeout) =>
 // fetch the resource from the browser cache
 const fromCache = (request) => {
   return caches.open(cacheName).then(
-    (cache) => cache.match(request).then((matching) => matching || cache.match('/')) //ToDo change logic
+    (cache) =>
+      cache.match(request).then((matching) => matching || cache.match('/') || cache.match('/')) //ToDo change logic
   )
 }
 
