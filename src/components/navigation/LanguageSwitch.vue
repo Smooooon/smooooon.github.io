@@ -80,11 +80,11 @@ onBeforeUnmount(() => document.removeEventListener('click', handleLanguageClickO
   width: 100%;
   padding: 10px 14px;
   border: none;
+  color: var(--color-text);
   background-color: transparent;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  column-gap: 3px;
   cursor: pointer;
   font-size: 16px;
 }

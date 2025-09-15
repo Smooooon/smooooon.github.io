@@ -8,14 +8,8 @@ import LanguageSwitch from '../navigation/LanguageSwitch.vue'
 
 //props
 const props = defineProps({
-  isActive: {
-    type: Boolean,
-    default: false
-  },
-  toggleNavigationBar: {
-    type: Function,
-    required: true
-  }
+  isActive: { type: Boolean, default: false },
+  toggleNavigationBar: { type: Function, required: true }
 })
 
 //properties
@@ -64,7 +58,6 @@ p {
 
 #headerOptions {
   display: flex;
-  column-gap: 20px;
 }
 
 .menuIcon {
