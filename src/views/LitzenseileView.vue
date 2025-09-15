@@ -9,13 +9,15 @@ import { ref } from 'vue'
 import litzenseile from '../assets/data/litzenseile.json'
 import image from '../assets/images/FATZER_Stabilo_Litzenseil_Web.png'
 import 'vue-good-table-next/dist/vue-good-table-next.css'
+import { useI18n } from 'vue-i18n'
 
 //props & emits
 //properties
+const { t } = useI18n()
 const selectedDiameterId = ref<number>()
 const columns = ref([
   {
-    label: 'Produkt',
+    label: t('product'),
     field: 'product'
   },
   {
@@ -40,24 +42,24 @@ const columns = ref([
 
 <template>
   <div>
-    <HeaderSection :image="image" title="Litzenseile" />
+    <HeaderSection :image="image" :title="$t('oss')" />
     <DataSection v-model="selectedDiameterId" :diameterOptions="litzenseile.data">
       <template #tooltip>
         <TooltipItem>
           <template #content>
             <div>
               <p>d:</p>
-              <p>Aussendrahtdurchmesser</p>
+              <p>{{ $t('dDescription') }}</p>
             </div>
             <div>
               <p>kg/m:</p>
-              <p>Seilmasse</p>
+              <p>{{ $t('kg/mDescription') }}</p>
             </div>
             <div>
               <p>MBK:</p>
               <p>
-                Mindestbruchkraft in kN bei Drahtnennfestigkeit <br />
-                <span class="bold">1960 N/mm2</span>
+                {{ $t('mBKDescription') }} <br />
+                <span class="bold">{{ $t('mBKDescriptionBold') }}</span>
               </p>
             </div>
           </template>
@@ -72,7 +74,7 @@ const columns = ref([
             enabled: true
           }"
         >
-          <template #emptystate>Keinen Durchmesser gewählt oder keine Daten vorhanden</template>
+          <template #emptystate>{{ $t('tableEmptyMessage') }}</template>
         </vue-good-table>
       </template>
     </DataSection>

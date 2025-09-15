@@ -39,8 +39,8 @@ const computedValue = computed({
   <section id="dataSection">
     <div class="tableTopArea">
       <InputSelect
-        lableText1="Seil-Ø (mm)"
-        lableText2="Min. Rollen-Ø (mm)"
+        :lableText1="$t('ropeDiameter')"
+        :lableText2="$t('minRollsDiameter')"
         v-model="computedValue"
         :options="diameterOptions"
         :optionTextFields="['rope', 'rollers']"

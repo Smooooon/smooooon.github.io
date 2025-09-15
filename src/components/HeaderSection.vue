@@ -57,6 +57,9 @@ img {
 /************* MediaQueries *************/
 /* grosse Bildschirme */
 @media screen and (max-width: 1920px) {
+  h1 {
+    font-size: 30px;
+  }
 }
 
 /* Bildschirme main Bereich + 2x 35px margin */

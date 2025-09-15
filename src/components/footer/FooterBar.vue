@@ -16,8 +16,8 @@ let currentYear = new Date().getFullYear()
     <div>
       <p class="bold">Building Strong Connections</p>
       <div class="linkArea">
-        <a href="https://www.fatzer.com/de/impressum" target="_blank">Impressum</a>
-        <a href="https://www.fatzer.com/de/datenschutz" target="_blank">Datenschutz</a>
+        <a :href="$t('legalNoticeUrl')" target="_blank">{{ $t('legalNotice') }}</a>
+        <a :href="$t('dataProtectionUrl')" target="_blank">{{ $t('dataProtection') }}</a>
       </div>
     </div>
     <div>

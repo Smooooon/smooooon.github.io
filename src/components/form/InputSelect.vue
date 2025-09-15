@@ -35,11 +35,6 @@ const props = defineProps({
     required: false,
     default: null
   },
-  placeholder: {
-    type: String,
-    required: false,
-    default: 'Durchmesser wählen'
-  },
   required: {
     type: Boolean,
     required: false,
@@ -82,7 +77,7 @@ const computedValue = computed({
       :disabled="readonly"
       @change="$emit('record-changed', computedValue)"
     >
-      <option disabled value="">{{ placeholder }}</option>
+      <option disabled value="">{{ $t('diameterSelectionText') }}</option>
       <option v-for="option in options" :key="option" :value="option[optionValueField] ?? option">
         {{ option['rope'] }} ---------- {{ option['rollers'] }}
       </option>

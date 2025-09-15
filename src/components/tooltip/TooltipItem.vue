@@ -38,7 +38,7 @@ onBeforeUnmount(() => {
 <template>
   <div ref="container" class="tooltip-wrapper">
     <div class="areaToToggle" @click="toggleTooltip">
-      <p>Legende</p>
+      <p>{{ $t('legend') }}</p>
       <IconItem :path="mdiInformationOutline" size="30" />
     </div>
     <div class="tooltip" :class="{ visible: showTooltip }">

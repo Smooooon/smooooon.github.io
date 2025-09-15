@@ -4,7 +4,8 @@ import IconItem from '../icons/IconItem.vue'
 
 //import function/data
 import { onMounted } from 'vue'
-import { mdiClose } from '@mdi/js'
+import { mdiClose, mdiWeb } from '@mdi/js'
+import { useI18n } from 'vue-i18n'
 
 //props
 defineProps({
@@ -19,6 +20,8 @@ defineProps({
 })
 
 //properties
+const { locale } = useI18n()
+
 //computed properties
 //methods
 const menuClick = (event: any, item: any) => {
@@ -36,6 +39,10 @@ function CollapseMenuSectionWithActiveElement() {
     let subItemWithActiveElement = activeElemet.closest('.subItem')
     subItemWithActiveElement?.classList.remove('hidden')
   }
+}
+
+function switchLanguage(lang: string) {
+  locale.value = lang
 }
 
 //watch functions
@@ -64,21 +71,32 @@ onMounted(() => {
     <div class="navigationBodyContainer">
       <div>
         <RouterLink to="/" @click="toggleNavigationBar(true)">
-          <p>Seilschieber</p>
+          <p>{{ $t('title') }}</p>
         </RouterLink>
       </div>
       <ul>
         <li>
-          <RouterLink :to="{ name: 'litzenseile' }" @click="toggleNavigationBar(true)"
-            >LITZENSEILE</RouterLink
+          <RouterLink
+            :to="{ name: 'litzenseile' }"
+            @click="toggleNavigationBar(true)"
+            class="navItem"
+            >{{ $t('ossShort') }}</RouterLink
           >
         </li>
         <li>
-          <RouterLink :to="{ name: 'vv-seile' }" @click="toggleNavigationBar(true)"
-            >VV-SEILE</RouterLink
+          <RouterLink
+            :to="{ name: 'vv-seile' }"
+            @click="toggleNavigationBar(true)"
+            class="navItem"
+            >{{ $t('flcShort') }}</RouterLink
           >
         </li>
       </ul>
+      <div id="languageSelector">
+        <IconItem :path="mdiWeb" size="25" />
+        <p @click="switchLanguage('de')" :class="{ currentLangauge: locale == 'de' }">DE</p>
+        <p @click="switchLanguage('en')" :class="{ currentLangauge: locale == 'en' }">EN</p>
+      </div>
     </div>
   </nav>
   <div class="overlay" :class="{ active: isActive }" @click="toggleNavigationBar()"></div>
@@ -88,7 +106,7 @@ onMounted(() => {
 /************* Desktop style *************/
 #navigationBar {
   width: 250px;
-  padding: 60px 0 15px 15px;
+  padding: 60px 0 15px 0;
   min-height: 100vh;
   position: fixed;
   background-color: var(--color-gray);
@@ -135,6 +153,10 @@ onMounted(() => {
 
 .navigationBodyContainer > div {
   padding-bottom: 40px;
+}
+
+.navItem {
+  text-transform: uppercase;
 }
 
 /* scrollbar start */
@@ -202,6 +224,24 @@ onMounted(() => {
   margin-left: 13px;
 }
 
+#languageSelector {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  column-gap: 10px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+
+#languageSelector > p {
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#languageSelector > p.currentLangauge {
+  text-decoration: underline;
+}
+
 /************* MediaQueries *************/
 /* grosse Bildschirme */
 @media screen and (max-width: 1920px) {
@@ -220,7 +260,6 @@ onMounted(() => {
     left: -250px;
     z-index: 50;
     padding-top: 30px;
-    padding-right: 10px;
   }
 
   .navigationHeaderContainer img {

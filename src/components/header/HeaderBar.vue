@@ -4,6 +4,7 @@ import IconItem from '../icons/IconItem.vue'
 
 //import function/data
 import { mdiMenu, mdiClose } from '@mdi/js'
+import LanguageSwitch from '../navigation/LanguageSwitch.vue'
 
 //props
 const props = defineProps({
@@ -27,11 +28,14 @@ const props = defineProps({
 <template>
   <header>
     <RouterLink to="/">
-      <p class="bold">SEILSCHIEBER</p>
+      <p class="bold">{{ $t('title') }}</p>
     </RouterLink>
-    <div @click="toggleNavigationBar()" class="menuIcon">
-      <IconItem v-if="!isActive" :path="mdiMenu" size="40" />
-      <IconItem v-else :path="mdiClose" size="40" />
+    <div id="headerOptions">
+      <LanguageSwitch />
+      <div @click="toggleNavigationBar()" class="menuIcon">
+        <IconItem v-if="!isActive" :path="mdiMenu" size="40" />
+        <IconItem v-else :path="mdiClose" size="40" />
+      </div>
     </div>
   </header>
 </template>
@@ -55,6 +59,12 @@ header {
 p {
   color: var(--color-primary);
   font-size: 24px;
+  text-transform: uppercase;
+}
+
+#headerOptions {
+  display: flex;
+  column-gap: 20px;
 }
 
 .menuIcon {

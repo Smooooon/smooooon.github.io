@@ -12,66 +12,47 @@
 <template>
   <div>
     <section id="appDescription">
-      <h1>Seilschieber</h1>
-      <p class="introText bold">
-        Einfach Richtwerte der technischen Seildaten für verschiedene Konstruktionen berechnen.
-      </p>
-      <h2>So geht's</h2>
+      <h1>{{ $t('title') }}</h1>
+      <p class="introText bold">{{ $t('smalDescription') }}</p>
+      <h2>{{ $t('howItWorks') }}</h2>
       <ul>
-        <li><p>Wählen Sie zwischen Litzenseilen und vollverschlossenen Seilen</p></li>
-        <li><p>Bestimmen Sie die Seilgröße in Millimetern</p></li>
         <li>
-          <p>
-            Bei Litzenseilen werden folgende Kennwerte ausgegeben: Durchmesser vom Aussendraht,
-            Gewicht pro Meter und Mindestbruchkraft (kurz MBK)
-          </p>
+          <p>{{ $t('howItWorks_List1') }}</p>
         </li>
         <li>
-          <p>
-            Bei vollverschlossenen Seilen werden das Gewicht pro Meter und die Mindestbruchkraft
-            ausgegeben
-          </p>
+          <p>{{ $t('howItWorks_List2') }}</p>
+        </li>
+        <li>
+          <p>{{ $t('howItWorks_List3') }}</p>
+        </li>
+        <li>
+          <p>{{ $t('howItWorks_List4') }}</p>
         </li>
       </ul>
-      <p>
-        «Seilschieber» basiert auf den Seiltabellen der Firma FATZER. Es handelt sich dabei um
-        Richtwerte, die nicht verbindlich sind. Für eine genaue Berechnung und Dimensionierung der
-        Seile kontaktieren Sie uns immer direkt und beachten die geltenden Normen und Vorschriften.
-        <br /><br />
-      </p>
-      <p class="bold">Wählen Sie dafür den Seiltyp und die gewünschte Grösse aus.</p>
+      <p>{{ $t('description') }}<br /><br /></p>
+      <p class="bold">{{ $t('selectSentence') }}</p>
     </section>
     <section id="types">
       <RouterLink :to="{ name: 'litzenseile' }" class="typeLinkArea">
         <img src="../assets/images/FATZER_Stabilo_Litzenseil_Web.png" alt="litzenseile" />
-        <p>LITZENSEILE</p>
+        <p>{{ $t('ossShort') }}</p>
       </RouterLink>
       <RouterLink :to="{ name: 'vv-seile' }" class="typeLinkArea">
         <img src="../assets/images/FATZER_Integra_vollverschlossen_Web.png" alt="vv-seile" />
-        <p>VV-SEILE</p>
+        <p>{{ $t('flcShort') }}</p>
       </RouterLink>
     </section>
     <section id="importantNotes">
-      <h2>Wichtige Hinweise</h2>
+      <h2>{{ $t('importantInformation') }}</h2>
       <ul>
         <li>
-          <p>
-            die Mindestbruchkraft bezieht sich immer auf das Seil im Neuzustand und in Abhängigkeit
-            der Drahtnennfestigkeit
-          </p>
+          <p>{{ $t('importantInformation_List1') }}</p>
         </li>
         <li>
-          <p>
-            die effektive Bruchkraft von beschädigten oder verformten Seilen kann tiefer liegen als
-            deren Mindestbruchkraft
-          </p>
+          <p>{{ $t('importantInformation_List2') }}</p>
         </li>
         <li>
-          <p>
-            bei Montagearbeiten Sicherheitsfaktor von mindestens 2.5 einhalten. Starke
-            Bruchlastminderung der Mindestbruchkraft durch Kanten, zu kleine Umlenkradien, etc.,
-            berücksichtigen
-          </p>
+          <p>{{ $t('importantInformation_List3') }}</p>
         </li>
       </ul>
     </section>
@@ -148,6 +129,7 @@ ul {
 
 .typeLinkArea p {
   width: 100%;
+  text-transform: uppercase;
 }
 
 /************* MediaQueries *************/
