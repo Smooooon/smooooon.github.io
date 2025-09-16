@@ -12,7 +12,7 @@
 <template>
   <div>
     <section id="appDescription">
-      <h1>{{ $t('title') }}</h1>
+      <h1 style="color: brown">Test - {{ $t('title') }} - Test</h1>
       <p class="introText bold">{{ $t('smalDescription') }}</p>
       <h2>{{ $t('howItWorks') }}</h2>
       <ul>
