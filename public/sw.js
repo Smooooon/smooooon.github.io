@@ -1,4 +1,4 @@
-const cacheName = 'seilschieber-v1.0.0' //Change to update cachedata
+const cacheName = 'seilschieber-v1.1.0' //Change to update cachedata
 const contentToCache = [
   //'/src/assets/images/FATZER_Stabilo_Litzenseil_Web.png',
   //'/src/assets/images/FATZER_Integra_vollverschlossen_Web.png',
